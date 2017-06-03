@@ -1,15 +1,15 @@
 var mongoose = require("mongoose");
-var Schema = mongoose.schema;
+var Schema = mongoose.Schema;
 
-var ArticleSchema = new Schema ({
+var ArticleSchema = new Schema({
     title: {
         type: String,
         required: true
-    }
-    date {
+    },
+    date: {
         type: Date
-    }
-    url {
+    },
+    url: {
         type: String
     }
 });
